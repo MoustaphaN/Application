@@ -1,0 +1,2 @@
+# ParanelMoney
+# AppMobile
