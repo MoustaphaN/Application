@@ -1,16 +1,27 @@
 .logo{
     position: relative;
-    width: 55%;
-    margin-left: 65%;
-
+    width: 65%;
+    margin-left: 45%;
 }
 
 .svg{
     position: relative;
-    width: 25%;
+    width: 30%;
     float: right;
-    margin-left: 80%;
-    top: 30px;
+    margin-left: 10%;
+    top: 15px;
+}
+
+.svg.ios{
+    position: relative;
+    margin-right: -40%;
+    width: 60%;
+}
+
+.logo.ios{
+    position: relative;
+    width: 100%;
+    margin-right: 95%;
 }
 
 .logoMenu{
