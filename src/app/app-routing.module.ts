@@ -15,6 +15,14 @@ const routes: Routes = [
     path: 'operations',
     loadChildren: () => import('./operations/operations.module').then( m => m.OperationsPageModule)
   },
+  {
+    path: 'wallet',
+    loadChildren: () => import('./wallet/wallet.module').then( m => m.WalletPageModule)
+  },
+  {
+    path: 'carte-bancaire',
+    loadChildren: () => import('./carte-bancaire/carte-bancaire.module').then( m => m.CarteBancairePageModule)
+  },
 ];
 
 @NgModule({

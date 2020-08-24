@@ -8,17 +8,9 @@
       </ion-header>
       <ion-content>
         <ion-list>
-          <ion-item>
+          <ion-item >
             <ion-img src="./assets/logo-icon/money2.png" style="width: 10%;" slot="start"></ion-img>
             <ion-label>Parrainel Money</ion-label>
-          </ion-item>
-          <ion-item>
-            <ion-img src="./assets/logo-icon/project.png" style="width: 10%;" slot="start"></ion-img>
-            <ion-label>Projets</ion-label>
-          </ion-item>
-          <ion-item>
-            <ion-img src="./assets/logo-icon/shopping-cart colored.png" style="width: 10%;" slot="start"></ion-img>
-            <ion-label>Boutique</ion-label>
           </ion-item>
           <ion-item>
             <ion-img src="./assets/logo-icon/megaphone.png" style="width: 10%;" slot="start"></ion-img>
@@ -61,26 +53,7 @@
         <ion-grid>
           <ion-row>
             <ion-col>
-              <ion-card class="card-home">
-                <img  class="img-home" src="./assets/logo-icon/cash-back.png" />
-              <ion-card-header>
-                <ion-card-subtitle class="title-home">Dépot</ion-card-subtitle>
-              </ion-card-header>
-              </ion-card>
-            </ion-col>
-            <ion-col>
-              <ion-card class="card-home">
-                <img class="img-home" src="./assets/logo-icon/retrait.png" />
-              <ion-card-header>
-                <ion-card-subtitle class="title-home" fullscreen>Retrait</ion-card-subtitle>
-              </ion-card-header>
-              </ion-card>
-            </ion-col>
-          </ion-row>
-      
-          <ion-row>
-            <ion-col>
-              <ion-card class="card-home">
+              <ion-card class="card-home" (click)="transfertArgent()">
                 <img class="img-home" src="./assets/logo-icon/peer-to-peer.png" />
               <ion-card-header>
                 <ion-card-subtitle class="title-home">Transfert d'argent</ion-card-subtitle>
@@ -91,7 +64,7 @@
               <ion-card class="card-home">
                 <img class="img-home" src="./assets/logo-icon/carteCrédit.png" />
               <ion-card-header>
-                <ion-card-subtitle class="title-home">Credit téléphonique</ion-card-subtitle>
+                <ion-card-subtitle class="title-home">Crédit téléphonique</ion-card-subtitle>
               </ion-card-header>
               </ion-card>
             </ion-col>
@@ -120,9 +93,28 @@
           <ion-row>
             <ion-col>
               <ion-card class="card-home">
-                <img class="img-home" src="./assets/logo-icon/transfertVersCompte.png" />
+                <img class="img-home" src="./assets/logo-icon/coin.png" />
               <ion-card-header>
-                <ion-card-subtitle class="title-home">Transfert vers compte</ion-card-subtitle>
+                <ion-card-subtitle class="title-home">Cotisation de Groupe</ion-card-subtitle>
+              </ion-card-header>
+              </ion-card>
+            </ion-col>
+            <ion-col>
+              <ion-card class="card-home">
+                <img class="img-home" src="./assets/logo-icon/supermarket.png" />
+              <ion-card-header>
+                <ion-card-subtitle class="title-home">Boutique</ion-card-subtitle>
+              </ion-card-header>
+              </ion-card>
+            </ion-col>
+          </ion-row>
+
+          <ion-row>
+            <ion-col>
+              <ion-card class="card-home">
+                <img class="img-home" src="./assets/logo-icon/project.png" />
+              <ion-card-header>
+                <ion-card-subtitle class="title-home">Projets</ion-card-subtitle>
               </ion-card-header>
               </ion-card>
             </ion-col>

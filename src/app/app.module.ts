@@ -9,14 +9,20 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { OperationsPage } from './operations/operations.page';
+import { WalletPage } from './wallet/wallet.page';
+import { CarteBancairePage } from './carte-bancaire/carte-bancaire.page';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OperationsPage
+    OperationsPage,
+    WalletPage,
+    CarteBancairePage
   ],
   entryComponents: [
-    OperationsPage
+    OperationsPage,
+    WalletPage,
+    CarteBancairePage
   ],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
